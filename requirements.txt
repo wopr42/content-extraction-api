@@ -1,0 +1,4 @@
+Flask==0.12.2
+flask-restplus==0.10.1
+newspaper3k==0.2.5
+nltk==3.2.5
