@@ -8,7 +8,7 @@ COPY ./requirements.txt /app/requirements.txt
 WORKDIR /app
 
 RUN pip3 install -r requirements.txt
-RUN [ "python3", "-c", "import nltk; nltk.download('all')" ]
+RUN python3 -m nltk.downloader punkt
 
 COPY . /app
 
