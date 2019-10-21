@@ -18,7 +18,7 @@ jsonschema==2.6.0
 lxml==4.2.1
 MarkupSafe==1.0
 newspaper3k==0.2.6
-nltk==3.2.5
+nltk==3.4.5
 Pillow==5.1.0
 pipenv==11.10.0
 Pygments==2.2.0
